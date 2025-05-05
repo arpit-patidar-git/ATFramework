@@ -29,7 +29,7 @@ public class LoginPage {
 
 	public String getLoginPageTitle() {
 		String title =  eleUtil.waitFotTitleIs(LOGIN_PAGE_TITLE,MEDIUM_DEFAULT_TIMEOUT);
-		log.info("login page title is : " + title);
+		log.info("login page title is :: " + title);
 		return title;
 	}
 
